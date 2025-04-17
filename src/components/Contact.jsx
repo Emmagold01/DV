@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import map from '../assets/map.png';
-import { Icon } from '@iconify/react/dist/iconify.js';
+import { Icon } from '@iconify/react';
 
 export default function Contact() {
   const [user, setUser] = useState({

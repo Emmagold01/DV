@@ -1,5 +1,5 @@
 import logo from '../assets/logo.png';
-import { Icon } from '@iconify/react/dist/iconify.js';
+import { Icon } from '@iconify/react';
 
 export default function Footer() {
   return (

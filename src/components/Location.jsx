@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react/dist/iconify.js';
+import { Icon } from '@iconify/react';
 import img1 from '../assets/location/img1.png';
 import img2 from '../assets/location/img2.png';
 import img3 from '../assets/location/img3.png';
