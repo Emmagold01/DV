@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+body {
+  margin: 0;
+}
+
+@theme {
+  --font-display: 'boska', 'switzer';
+
+  --color-primary: hsl(97, 10%, 35%, 1);
+  --color-secondary: hsl(97, 10%, 35%, 1);
+  --color-light: hsla(97, 6%, 57%, 1);
+  --color-test: hsla(96, 3%, 35%, 1);
+  --color-footer: hsla(0, 0%, 26%, 1);
+  /* ... */
+}
