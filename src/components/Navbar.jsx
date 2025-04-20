@@ -19,22 +19,22 @@ export default function Navbar() {
 
           <ul className="hidden md:flex ml-15 justify-center space-x-7 text-white text-md ">
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#features" className="hover:text-primary">
                 Browse
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#services" className="hover:text-primary">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#testimonials" className="hover:text-primary">
                 Testimonials
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#contact" className="hover:text-primary">
                 Contact us
               </a>
             </li>
@@ -67,22 +67,22 @@ export default function Navbar() {
         >
           <ul className="flex flex-col justify-center space-y-3 items-center text-white text-md ">
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#features" className="hover:text-primary">
                 Browse
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#services" className="hover:text-primary">
                 Services
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#testimonials" className="hover:text-primary">
                 Testimonials
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primary">
+              <a href="#contact" className="hover:text-primary">
                 Contact us
               </a>
             </li>

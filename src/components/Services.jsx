@@ -19,7 +19,7 @@ export default function Services() {
     },
   ];
   return (
-    <div className="relative mt-15">
+    <div id="services" className="relative mt-15">
       <div
         className=" absolute top-30 md:top-8 lg:top-0 left-0 w-full h-[400px] bg-no-repeat bg-contain bg-top z-0"
         style={{ backgroundImage: `url(${vector})` }}

@@ -19,13 +19,13 @@ export default function Contact() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto pt-10 px-3 md:px-26">
+    <div id="contact" className="max-w-7xl mx-auto pt-10 px-3 md:px-26">
       <h1 className="text-primary text-3xl font-display font-bold">
         Contact us
       </h1>
       <p className="text-light mb-4">we are excited to get planning</p>
       <div className="flex flex-col lg:flex-row space-y-6 items-center justify-between">
-        <form className="flex flex-col" onSubmit={handleSubmit}>
+        <form className="flex flex-col mx-20" onSubmit={handleSubmit}>
           <h3 className="text-test font-medium">Contact information</h3>
           <input
             type="text"

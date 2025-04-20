@@ -82,7 +82,7 @@ export default function Features() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto pt-5 px-3 md:px-26">
+    <div id="features" className="max-w-7xl mx-auto pt-5 px-3 md:px-26">
       <h1 className="text-left text-light font-medium tracking-tight">
         Featured venues
       </h1>

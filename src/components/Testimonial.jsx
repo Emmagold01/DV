@@ -45,7 +45,7 @@ export default function Testimonial() {
   }
 
   return (
-    <div className="bg-test mt-20 p-5 ">
+    <div id="testimonials" className="bg-test mt-20 p-5 ">
       <div className="max-w-7xl mx-auto pt-5 px-2 md:px-26">
         <div className="py-5 text-center">
           <h1 className="font-display text-2xl  text-white font-bold ">

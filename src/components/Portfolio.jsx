@@ -23,7 +23,7 @@ export default function Portfolio() {
     },
   ];
   return (
-    <div className="max-w-7xl mx-auto pt-8 px-3 md:px-26">
+    <div id="portfolio" className="max-w-7xl mx-auto pt-8 px-3 md:px-26">
       <h1 className="py-3 text-light font-medium">Our portfolio</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 ">
         {portfolio.map((item, index) => (

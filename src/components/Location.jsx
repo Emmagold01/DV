@@ -9,7 +9,7 @@ import img7 from '../assets/location/img7.png';
 
 export default function Location() {
   return (
-    <div className="-mt-25">
+    <div id="location" className="-mt-25">
       <svg
         className="w-full h-[100px] block"
         xmlns="http://www.w3.org/2000/svg"
