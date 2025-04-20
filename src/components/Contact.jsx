@@ -26,54 +26,56 @@ export default function Contact() {
       <p className="text-light mb-4">we are excited to get planning</p>
       <div className="flex flex-col lg:flex-row space-y-6 items-center justify-between">
         <form className="flex flex-col" onSubmit={handleSubmit}>
-          <h3 className="text-test font-medium">Contact information</h3>
+          <h3 className="text-test font-medium mx-3">Contact information</h3>
           <input
             type="text"
             placeholder="name"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 mx-3 w-100 border-2 border-light rounded-md text-light outline-none"
             value={user.name}
             onChange={(e) => setUser({ ...user, name: e.target.value })}
           />
           <input
             type="email"
             placeholder="Email"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 w-100 mx-3 border-2 border-light rounded-md text-light outline-none"
             value={user.email}
             onChange={(e) => setUser({ ...user, email: e.target.value })}
           />
           <input
             type="tel"
             placeholder="Phone no"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 w-100 mx-3 border-2 border-light rounded-md text-light outline-none"
             value={user.phone}
             onChange={(e) => setUser({ ...user, phone: e.target.value })}
           />
-          <h3 className="text-test font-medium pt-3">Who's getting married?</h3>
+          <h3 className="text-test font-medium mx-3 pt-3">
+            Who's getting married?
+          </h3>
           <input
             type="text"
             placeholder="Partner 1"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 mx-3 w-100 border-2 border-light rounded-md text-light outline-none"
             value={user.partner1}
             onChange={(e) => setUser({ ...user, partner1: e.target.value })}
           />
           <input
             type="text"
             placeholder="Partner 2"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 w-100 mx-3 border-2 border-light rounded-md text-light outline-none"
             value={user.partner2}
             onChange={(e) => setUser({ ...user, partner2: e.target.value })}
           />
           <input
             type="date"
             placeholder="MM/YY"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 mx-3 w-100 border-2 border-light rounded-md text-light outline-none"
             value={user.date}
             onChange={(e) => setUser({ ...user, date: e.target.value })}
           />
           <input
             type="number"
             placeholder="Expected number of guest"
-            className="mt-2 p-2 w-100 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 p-2 w-100 mx-3 border-2 border-light rounded-md text-light outline-none"
             value={user.num}
             onChange={(e) => setUser({ ...user, num: e.target.value })}
           />
@@ -82,9 +84,9 @@ export default function Contact() {
             value={user.message}
             onChange={(e) => setUser({ ...user, message: e.target.value })}
             placeholder="Tell us anything more that can help!"
-            className="mt-2 p-2 w-100 h-40 border-2 border-light rounded-md text-light outline-none"
+            className="mt-2 mx-3 p-2 w-100 h-40 border-2 border-light rounded-md text-light outline-none"
           ></textarea>
-          <button className="mt-2 text-white bg-primary px-3 py-2 rounded-md lg:w-30 cursor-pointer">
+          <button className="mt-2 mx-3 text-white bg-primary px-3 py-2 rounded-md lg:w-30 cursor-pointer">
             Send
           </button>
         </form>
