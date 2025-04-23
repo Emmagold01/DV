@@ -16,7 +16,7 @@ export default function Hero() {
             urna ut diam fames.
           </p>
           <div className="flex flex-col justify-center items-center text-primary mt-10">
-            <Icon icon="fa6-solid:arrow-down-long" />
+            <Icon icon="fa6-solid:arrow-down-long" className="animate-bounce" />
             <p>Scroll</p>
           </div>
         </div>
